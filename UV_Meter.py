@@ -7,7 +7,7 @@ sensor = ADC(Pin(34))
 sensor.atten(ADC.ATTN_11DB)
 sensor.width(ADC.WIDTH_10BIT)
 
-def dades():
+def recupera():
     global valor,index_uv,tensio
     valor = sensor.read()
     tensio = valor * 3300/1023
