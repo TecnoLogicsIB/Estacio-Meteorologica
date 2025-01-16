@@ -1,3 +1,5 @@
+# creat per Unaiibeal i Wescraft69
+
 from machine import Pin, ADC
 from time import sleep
 
