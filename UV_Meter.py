@@ -10,7 +10,6 @@ def dades():
     valor = sensor.read()
     tensio = valor * 3300/1023
     
-    
     if (tensio < 227.0):
         index_uv = 0
     elif (tensio >= 1170.0):
