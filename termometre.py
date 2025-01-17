@@ -1,3 +1,4 @@
+#creat per LukasCrr i Ari
 from onewire import OneWire
 from ds18x20 import DS18X20 
 from time import sleep
