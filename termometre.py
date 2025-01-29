@@ -5,8 +5,11 @@
 from onewire import OneWire
 from ds18x20 import DS18X20 
 from time import sleep
+
 pin = Pin(19)
 sensor = DS18X20(OneWire(pin))
+valors = 0.0
+
 def recupera():
     while len(sensor.scan()) == 0: 
         sleep(0.01)  
