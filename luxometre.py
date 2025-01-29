@@ -1,3 +1,5 @@
+# recuperació de dades d'il·luminació (lux) amb sensor BH1750
+# https://sites.google.com/xtec.cat/bellbit-g1/components/sensors-ambientals/llum-bh1750 
 # creat per Alexjurjo i Bielesga
 
 from machine import Pin, SoftI2C
