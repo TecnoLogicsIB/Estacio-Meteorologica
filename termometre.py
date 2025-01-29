@@ -10,12 +10,14 @@ pin = Pin(19)
 sensor = DS18X20(OneWire(pin))
 valors = 0.0
 
+while len(sensor.scan()) == 0: 
+    sleep(0.01)  
+dispositius = sensor.scan()
+# print ('dispositius trobats:', dispositius)
+id1 = dispositius[0]
+
 def recupera():
-    while len(sensor.scan()) == 0: 
-        sleep(0.01)  
-    dispositius = sensor.scan()  
-    id1 = dispositius[0]
-    sensor.convert_temp()
+    global id1, valors
+    sensor.convert_temp()  
     sleep(0.75)
-    global valors
-    valors = round(sensor.read_temp(id1), 2)
+    valors = round(sensor.read_temp(id1),2)
