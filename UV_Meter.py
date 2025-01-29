@@ -1,3 +1,5 @@
+# recuperació de dades d'intensitat de radiació ultraviolada amb sensor GUVA-S12SD
+# https://sites.google.com/xtec.cat/bellbit-g1/components/sensors-ambientals/ultraviolats-guva-s12sd
 # creat per Unaiibeal i Wescraft69
 
 from machine import Pin, ADC
