@@ -1,3 +1,6 @@
+# recuperació de dades de concentració de partícules en l'aire amb sensor GP2Y1014AU0F
+# https://sites.google.com/xtec.cat/bellbit-g1/components/sensors-ambientals/partícules-gp2y1014au 
+
 from machine import Pin, ADC
 from time import sleep, sleep_us
 
