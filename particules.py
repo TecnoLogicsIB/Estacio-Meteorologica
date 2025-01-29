@@ -9,6 +9,9 @@ sensor = ADC(Pin(34))
 sensor.atten(ADC.ATTN_11DB)     # per llegir en tot el rang de 0 a 3.3 V
 sensor.width(ADC.WIDTH_12BIT)   # per ajustar la comversió AD a 12 bits (valors fins a 4095)
 
+pols = 0
+missatge = ""
+
 def recupera():
     global pols, missatge
     led.off                     
