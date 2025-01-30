@@ -4,6 +4,7 @@
 
 from onewire import OneWire
 from ds18x20 import DS18X20 
+from machine import Pin
 from time import sleep
 
 pin = Pin(19)
