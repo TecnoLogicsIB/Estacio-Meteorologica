@@ -3,7 +3,6 @@
 # creat per Unaiibeal i Wescraft69
 
 from machine import Pin, ADC
-from time import sleep
 
 sensor = ADC(Pin(34))
 sensor.atten(ADC.ATTN_11DB)
