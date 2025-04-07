@@ -8,5 +8,5 @@ Connectem-lo com a estació a una xarxa WiFi<br>
 Fem-lo treballar com a client HTTP<br>
 Pugem dades al núvol (Thingspeak)</p>
 <p>Solucionem problemes de connectivitat WiFi:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Emissor LoRa -> llegeix els sensors i envia les dades via LoRa<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Receptor LoRa -> reb les dades i les envia a un canal de Thingspeak</p>
+&nbsp;&nbsp;&nbsp;&nbsp;Emissor LoRa (sense connectivitat WiFi) -> llegeix els sensors i envia les dades via LoRa<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Receptor LoRa (amb connectivitat WiFi) -> reb les dades i les envia a un canal de Thingspeak</p>
