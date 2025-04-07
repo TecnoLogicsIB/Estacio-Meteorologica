@@ -6,3 +6,4 @@ Mesurem l'ambient (recuperem dades dels sensors)<br>
 Connectem-lo com a estació a una xarxa WiFi<br>
 Fem-lo treballar com a client HTTP<br>
 Pugem dades al núvol (Thingspeak)</p>
+<p>Solucionem problemes de connectivitat WiFi:</p>
