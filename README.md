@@ -4,4 +4,5 @@
 <p><b>Seqüència de treball:</b><br>
 Mesurem l'ambient (recuperem dades dels sensors)<br>
 Connectem-lo com a estació a una xarxa WiFi<br>
-Fem-lo treballar com a client HTTP</p>
+Fem-lo treballar com a client HTTP<br>
+Pugem dades al núvol (Thingspeak)</p>
