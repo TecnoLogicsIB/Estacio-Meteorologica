@@ -9,5 +9,5 @@ def recupera():
     valors = bme.read_compensated_data()
     global temp, pres, humt
     temp = round(valors[0],2)
-    pres = round(valors[1],2)
+    pres = round((valors[1]/100),2)  # per obtenir hPa amb 2 decimals
     humt = round(valors[2],2)
