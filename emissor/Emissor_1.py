@@ -9,11 +9,13 @@ import uv_metre
 from machine import UART
 from time import sleep
 
-# Serial UART per al mòdul LoRa:
-lora = UART(2, baudrate=9600, tx=17, rx=16)  
+# --- Configuració ---
+lora = UART(2, baudrate=9600, tx=17, rx=16)   # Serial UART per al mòdul LoRa
 
-# freqüència d'actualització: recomenat 5 minuts (300 s = 300_000 ms)
-actualitzacio = 30  # per fer proves, cada mig minut (30 s)
+# --- Variables ---
+actualitzacio = 30  # per fer proves, cada mig minut (30 s). Definitiva cada 5 minuts (300 s)
+
+# --- Funcions ---
 
 def recupera():  # execució de les funcions de lectura dels sensors definides en les llibreries
     barometre.recupera()
@@ -36,6 +38,7 @@ def envia_dades():
     print("Enviant:", dades)  # mostra a la consola
     lora.write(dades + "\n")  # envia amb salt de línia ("\n") per facilitar separació de missatges
 
+# --- Execució ---
 while True:
     envia_dades()
     sleep(actualitzacio)
