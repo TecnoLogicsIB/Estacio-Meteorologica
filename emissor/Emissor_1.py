@@ -1,5 +1,5 @@
 ''' Emissor 1. Recupera les dades dels sensors i envia per LoRa en format CSV
-               Mostra a la consola les dades enviades'''
+               Mostra a la consola les dades enviades '''
 
 # import de llibreries pròpies
 import barometre
