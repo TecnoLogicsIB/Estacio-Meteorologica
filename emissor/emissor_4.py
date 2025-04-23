@@ -5,7 +5,7 @@
 
 # --- Llibreries ---
 # import de llibreries pròpies
-import barometre
+import barometre 
 import luxometre
 import uv_metre
 # llibreries de microPython
