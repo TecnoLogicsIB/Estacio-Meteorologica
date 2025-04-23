@@ -1,7 +1,7 @@
 ''' Emissor 4. Recupera les dades dels sensors i envia per LoRa en format CSV
                LED indicador de dades enviades
                Autonomia. Sensor tàctil (TBreak) per sortir de bucle
-               Afegit: deepsleep'''
+               Afegit: deepsleep entre enviaments '''
 
 # --- Llibreries ---
 # import de llibreries pròpies
