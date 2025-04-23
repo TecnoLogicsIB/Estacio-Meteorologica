@@ -7,11 +7,9 @@ import miwifi       # llibreria pròpia per connectar a WiFi
 
 # --- Configuració ---
 
-ssid = 'vodafoneE3D9'
-psw = 'JU7AJW8YFWMWLR'
-#ssid = 'gencat_ENS_EDU_LAB'
-#psw = 'R0b0t!c@'
-url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'  # adreça de recuperació de dades del canal
+ssid = 'SSID'
+psw = 'PASSWORD'
+url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'  # adreça de recuperació de dades del nostre canal
 
 miwifi.connecta_wifi(ssid, psw)    # connecta a WiFi
 
