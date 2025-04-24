@@ -1,5 +1,8 @@
 # Estacio-Meteorològica
 <p>ESP32 amb microPython. 1r Batxillerat Tecnològic Institut Bellvitge.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emissor LoRa (sense connectivitat WiFi): llegeix les dades dels sensors i les envia per LoRa.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Receptor LoRa: reb les dades de l'emissor i les envia al núvol (Thingspeak)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visualitzador: recupera les dades del canal de Thingspeak i les mostra en pantallas LCD.<br>
 <a target="_blank" href="https://sites.google.com/xtec.cat/bellbit-g1/seqüència-daprenentatge/mesurem-lambient">e-spai d'aprenentatge</a> - <a href="https://thingspeak.mathworks.com/channels/1825502" target="_blank">canal de Thingspeak</a><br>
 Llistes de reproducció: Mesurem l'ambient (recuperem dades dels sensors). <a target="_blank" href="https://www.youtube.com/playlist?list=PLPgROzFANTubuU63zn_CugJb2zuYuDn44">Llista de reproducció</a> - Pautes de programació <a target="_blank" href="https://www.youtube.com/playlist?list=PLPgROzFANTubuU63zn_CugJb2zuYuDn44">Llista de reproducció</a></p> 
 
