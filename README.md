@@ -4,7 +4,7 @@
 
 <p><b>Seqüència de treball:</b><br>
 Mesurem l'ambient (recuperem dades dels sensors)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="https://www.youtube.com/playlist?list=PLPgROzFANTubuU63zn_CugJb2zuYuDn44">Llista de reproducció</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="https://www.youtube.com/playlist?list=PLPgROzFANTubuU63zn_CugJb2zuYuDn44">Llista de reproducció</a><br>
 Connectem-lo com a estació a una xarxa WiFi<br>
 Fem-lo treballar com a client HTTP<br>
 Pugem dades al núvol (Thingspeak)<br>
