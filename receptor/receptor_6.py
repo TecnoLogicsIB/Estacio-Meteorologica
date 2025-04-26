@@ -35,7 +35,7 @@ psw = 'JU7AJW8YFWMWLR'
 #psw = 'R0b0t!c@'
 url = 'https://api.thingspeak.com/update?api_key=BK5LJ7G6KJN1FD3A'
 
-miwifi.connecta_wifi(ssid, psw)
+# miwifi.connecta_wifi(ssid, psw)
 
 # --- Funcions ---
 
