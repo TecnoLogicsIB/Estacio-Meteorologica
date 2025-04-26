@@ -25,10 +25,8 @@ humt = 0
 lux = 0
 uv = 0
 
-ssid = 'vodafoneE3D9'
-psw = 'JU7AJW8YFWMWLR'
-#ssid = 'gencat_ENS_EDU_LAB'
-#psw = 'R0b0t!c@'
+ssid = 'xxx'
+psw = 'zzz'
 url = 'https://api.thingspeak.com/update?api_key=BK5LJ7G6KJN1FD3A'
 
 miwifi.connecta_wifi(ssid, psw)
