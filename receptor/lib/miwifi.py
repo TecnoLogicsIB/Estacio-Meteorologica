@@ -1,3 +1,5 @@
+''' Llibreria pròpia que defineix la connexió i la desconnexió a una xarxa WiFi definida en el programa principal '''
+
 # importa:
 import network                          # el mòdul network permet connectar en xarxa
 from time import sleep                  # la classe sleep del mòdul time permet definir pauses
