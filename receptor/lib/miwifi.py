@@ -2,9 +2,6 @@
 import network                          # el mòdul network permet connectar en xarxa
 from time import sleep                  # la classe sleep del mòdul time permet definir pauses
 
-#ssid='vodafoneE3D9'
-#psw= 'JU7AJW8YFWMWLR'
-
 def connecta_wifi(ssid, psw):
     estacio = network.WLAN(network.STA_IF)  # configuració del dispositiu, que he anomenat estacio, com a estació
     estacio.active(True)                    # activa el mode estació
@@ -25,6 +22,3 @@ def desconnecta_wifi():
         estacio.disconnect()
         print("Desconnectat de Wi-Fi")
     estacio.active(False)
-
-#connecta_wifi ('vodafoneE3D9', 'JU7AJW8YFWMWLR')
-#connecta_wifi ('gencat_ENS_EDU_LAB', 'R0b0t!c@')
