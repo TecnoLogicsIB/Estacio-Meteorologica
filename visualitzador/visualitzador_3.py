@@ -1,4 +1,4 @@
-''' Visualitzador 2. Recupera les dades de Thingspeak sense pauses sleep
+''' Visualitzador 3. Recupera les dades de Thingspeak sense pauses sleep
     Afegit: mostra de dades en pantalles LCD'''
 
 # --- Llibreries ---
