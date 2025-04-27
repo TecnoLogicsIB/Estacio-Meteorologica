@@ -34,12 +34,11 @@ taronja = (int(lluentor*255), int(lluentor*100), 0)
 vermell = (int(lluentor*255), 0, 0)
 violeta = (int(lluentor*130), 0, int(lluentor*255))
 
-# --- Inicialització
+# --- Accions inicials ---
 #lcd1.backlight_on()
 #lcd2.backlight_on()
 lcd1.putstr ('HOLA')
 lcd2.putstr ('HOLA')
-
 for i in range(10):   # per a tots els 10 leds de la tira ...
     leds[i] = groc    # assigna un color inicial
 leds.write()          # encén
