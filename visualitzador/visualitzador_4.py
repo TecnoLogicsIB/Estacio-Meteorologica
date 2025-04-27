@@ -22,8 +22,8 @@ leds = neopixel.NeoPixel(Pin(23), 10)  # 23: pin de connexió - 10: núm de LEDs
 last_update = ticks_ms()
 interval = 10000 
 
-ssid = 'vodafoneE3D9'
-psw = 'JU7AJW8YFWMWLR'
+ssid = 'SSID'
+psw = 'PASSWORD'
 url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
 
 # colors neopixel
