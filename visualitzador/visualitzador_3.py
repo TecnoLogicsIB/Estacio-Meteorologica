@@ -23,7 +23,7 @@ ssid = 'SSID'
 psw = 'PASSWORD'
 url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
 
-# --- Accions inicials
+# --- Accions inicials ---
 #lcd1.backlight_on()
 #lcd2.backlight_on()
 lcd1.putstr ('HOLA')
