@@ -1,7 +1,7 @@
 ''' Visualitzador 6. Recupera les dades de Thingspeak sense pauses sleep
     Mostra de dades en pantalles LCD
     Tira de LEDs per mostrar l'índex UV
-    Afegi: mostra data i hora en OLED '''
+    Afegit: mostra data i hora en OLED '''
 
 # --- Llibreries ---
 import urequests    
