@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Datos ThingSpeak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .dato {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #333;
+    }
+    .fecha {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Últimos datos</h1>
+
+  <div id="field1" class="dato">Cargando temperatura...</div>
+  <div id="field2" class="dato">Cargando humedad...</div>
+  <div id="field3" class="dato">Cargando presión...</div>
+  <div id="field4" class="dato">Cargando luz...</div>
+  <div id="field5" class="dato">Cargando batería...</div>
+  <div id="fecha" class="fecha">Cargando fecha...</div>
+
+  <script>
+    fetch('https://api.thingspeak.com/channels/2933623/feeds/last.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('field1').innerText = 'Temperatura: ' + data.field1 + ' °C';
+        document.getElementById('field2').innerText = 'Humedad: ' + data.field2 + ' %';
+        document.getElementById('field3').innerText = 'Presión: ' + data.field3 + ' hPa';
+        document.getElementById('field4').innerText = 'Luz: ' + data.field4 + ' lux';
+        document.getElementById('field5').innerText = 'Batería: ' + data.field5 + ' %';
+        document.getElementById('fecha').innerText = 'Última actualización: ' + new Date(data.created_at).toLocaleString('es-ES');
+      })
+      .catch(error => {
+        console.error('Error al obtener los datos:', error);
+        document.getElementById('field1').innerText = 'Error al cargar temperatura';
+        document.getElementById('field2').innerText = 'Error al cargar humedad';
+        document.getElementById('field3').innerText = 'Error al cargar presión';
+        document.getElementById('field4').innerText = 'Error al cargar luz';
+        document.getElementById('field5').innerText = 'Error al cargar batería';
+        document.getElementById('fecha').innerText = 'Error al cargar fecha';
+      });
+  </script>
+
+</body>
+</html>
