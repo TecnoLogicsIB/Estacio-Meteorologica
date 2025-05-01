@@ -1,4 +1,4 @@
-''' Visualitzador 7. Recupera les dades de Thingspeak sense pauses sleep
+''' Visualitzador 6. Recupera les dades de Thingspeak sense pauses sleep
     Mostra de dades en pantalles LCD
     Tira de LEDs per mostrar l'índex UV
     Mostra data i hora en OLED
