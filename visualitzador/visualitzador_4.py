@@ -49,13 +49,17 @@ miwifi.connecta_wifi(ssid, psw)
 
 def colors():
     # encen tota la tira d'un color en funció del valor recuperat de l'índex UV
-    if uv <= 2:
+    # volem associar els colors al valor de uv, que s'ha recuperat en forma de text [print(type(uv))  # Veus si és str o float]
+    # cal convertir-lo primer en nombre decimal (float), i després en enter (int). la conversió directa no funciona
+    uv_num = float(uv)        # per comprovació: print (uv_num);print(type(uv_num))
+    uv_int = int(uv_num)      # per comprovació: print(type(uv_int))
+    if uv_int <= 2:
         color = verd
-    elif uv <= 5:
+    elif uv_int <= 5:
         color = groc
-    elif uv <= 7:
+    elif uv_int <= 7:
         color = taronja
-    elif uv <= 10:
+    elif uv_int <= 10:
         color = vermell
     else:
         color = violeta
