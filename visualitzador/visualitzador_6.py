@@ -40,7 +40,7 @@ taronja = (int(lluentor*255), int(lluentor*100), 0)
 vermell = (int(lluentor*255), 0, 0)
 violeta = (int(lluentor*130), 0, int(lluentor*255))
 
-# --- Inicialització
+# --- Accions inicials ---
 #lcd1.backlight_on()
 #lcd2.backlight_on()
 lcd1.putstr ('HOLA')
@@ -59,13 +59,16 @@ miwifi.connecta_wifi(ssid, psw)
 
 def colors():
     # encen tota la tira d'un color en funció del valor recuperat de l'índex UV
-    if uv <= 2:
+    iuv_num = float(uv)        # per comprovació: print (uv_num);print(type(uv_num))
+    uv_int = int(uv_num)      # per comprovació: print(type(uv_int))
+    
+    if uv_int <= 2:
         color = verd
-    elif uv <= 5:
+    elif uv_int <= 5:
         color = groc
-    elif uv <= 7:
+    elif uv_int <= 7:
         color = taronja
-    elif uv <= 10:
+    elif uv_int <= 10:
         color = vermell
     else:
         color = violeta
