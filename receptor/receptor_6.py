@@ -1,4 +1,4 @@
-''' Receptor 5. Reb dades per Lora i les mostra en la consola. Sense sleep
+''' Receptor 6. Reb dades per Lora i les mostra en la consola. Sense sleep
     LED indicador de vida (flaix de 0.5 s) cada 5 s
     Pujada de les dades rebudes a Thinsgpeak
     Autonomia (main.py) amb TBreak per trencar l'execució del while True
