@@ -14,7 +14,7 @@ interval = 10000
 
 ssid = 'SSID'
 psw = 'PASSWORD'
-url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
+url = 'https://api.thingspeak.com/channels/2933623/feeds.json?results=1'
 
 miwifi.connecta_wifi(ssid, psw)
 
@@ -43,3 +43,4 @@ while True:
             last_update = ara
         except Exception as e:
             print("Error:", e)
+
