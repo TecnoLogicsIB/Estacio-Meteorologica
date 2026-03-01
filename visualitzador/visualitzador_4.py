@@ -24,7 +24,7 @@ interval = 10000
 
 ssid = 'SSID'
 psw = 'PASSWORD'
-url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
+url = 'https://api.thingspeak.com/channels/2933623/feeds.json?results=1'
 
 # colors neopixel
 lluentor = 0.1
@@ -112,3 +112,4 @@ while True:
         except Exception as e:
             print("Error:", e)
             
+
