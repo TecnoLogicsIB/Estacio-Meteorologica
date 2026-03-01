@@ -26,8 +26,8 @@ last_update = ticks_ms()       # per control d'actualització de l'execució
 last_data_update = ticks_ms()  # Temporització per actualitzar la data/hora cada segon
 interval = 10000 
 
-ssid = 'vodafoneE3D9'
-psw = 'JU7AJW8YFWMWLR'
+ssid = 'xxx'
+psw = 'zzz'
 url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
 
 # colors neopixel
@@ -141,3 +141,4 @@ while True:
         except Exception as e:
             print("Error:", e)
             
+
