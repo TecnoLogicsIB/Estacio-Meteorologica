@@ -29,8 +29,8 @@ last_update = ticks_ms()       # per control d'actualització de l'execució
 last_data_update = ticks_ms()  # pel control de l'actualització de la data/hora
 interval = 10000   # funcionament definitiu: 5 minuts (300.000 ms)
 
-ssid = 'vodafoneE3D9'
-psw = 'JU7AJW8YFWMWLR'
+ssid = 'xxx'
+psw = 'zzz'
 url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
 
 # colors neopixel
@@ -151,3 +151,4 @@ while True:
     print ('vaig a dormir')
     lightsleep(1000)  # Dorm 100 ms abans de continuar (estalvi energètic)
     
+
