@@ -31,7 +31,7 @@ interval = 10000   # funcionament definitiu: 5 minuts (300.000 ms)
 
 ssid = 'xxx'
 psw = 'zzz'
-url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'
+url = 'https://api.thingspeak.com/channels/2933623/feeds.json?results=1'
 
 # colors neopixel
 lluentor = 0.1
@@ -151,4 +151,5 @@ while True:
     print ('vaig a dormir')
     lightsleep(1000)  # Dorm 100 ms abans de continuar (estalvi energètic)
     
+
 
