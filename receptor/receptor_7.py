@@ -35,7 +35,7 @@ uv = 0
 
 ssid = 'xxx'
 psw = 'zzz'
-url = 'https://api.thingspeak.com/update?api_key=BK5LJ7G6KJN1FD3A'
+url = 'https://api.thingspeak.com/update?api_key=JCSNK4E7IP1DMUD7'
 
 IP = 'ESPERANT DADES'
 dades_rebudes = 'NO'
@@ -124,4 +124,5 @@ while True:
         led.value(not led_actiu)
         led_actiu = not led_actiu
         temps_led = ara 
+
 
