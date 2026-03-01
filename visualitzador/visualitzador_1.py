@@ -9,7 +9,7 @@ import miwifi       # llibreria pròpia per connectar a WiFi
 
 ssid = 'SSID'
 psw = 'PASSWORD'
-url = 'https://api.thingspeak.com/channels/1825502/feeds.json?results=1'  # adreça de recuperació de dades del nostre canal
+url = 'https://api.thingspeak.com/channels/2933623/feeds.json?results=1'  # adreça de recuperació de dades del nostre canal
 
 miwifi.connecta_wifi(ssid, psw)    # connecta a WiFi
 
@@ -37,3 +37,4 @@ def recupera():
 while True:
     recupera()
     sleep (10)  # actualització cada 10 s
+
